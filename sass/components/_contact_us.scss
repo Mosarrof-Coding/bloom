@@ -1,0 +1,28 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--contact_us lab part start--------*/
+#contact_us{
+    background: $hover;
+    padding: 45px 0;
+    .contactHead{
+        h3{
+            font-size: 25px;
+            font-weight: 600;
+            color:$white;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+
+    }
+    .commonButton{
+        a{
+            border: 2px solid $white;
+            color:$white;
+            @include commomBtn;
+            &:hover{
+                background: $white;
+                color:$hover;
+            }
+        }
+    }
+}

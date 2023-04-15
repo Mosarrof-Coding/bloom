@@ -1,0 +1,42 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--blog part start--------*/
+#blog{
+    padding-bottom: 50px;
+    .blog_heading{
+        .blog_border{
+            @include portborder;
+        }
+    }
+    .bloggerline{
+        width: 100%;
+        margin: 36px 0;
+        border-bottom: 3px solid $bborder;
+    }
+    h6{
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 24px;
+        color: $hover;
+    }
+    .date{
+        font-size: 16px;
+        font-weight: 500;
+        color:$graygreen;
+        text-transform: capitalize;
+        text-align: right;
+    }
+    .name{
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 600;
+        color:$hover;
+        text-align: right;
+        small{
+            color:$graygreen;
+        }
+    }
+}
+/*--blog part end--------*/

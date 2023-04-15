@@ -1,0 +1,118 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--about_bloom part start--------*/
+#about_bloom{
+    padding: 82px 0 76px 0;
+    .bloom_heading{
+        position: relative;
+        width: 100%;
+        display: block;
+        &::before{
+            width: 5px;
+            height: 85px;
+            border-radius: 3px;
+            background: $hover;
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+        }
+        h4{
+            display: block;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 35px;
+            padding-left: 14px;
+            color:$colh4;
+            text-transform: uppercase;
+            .bloom2{
+                color:$hover;
+            }
+        }
+        .creative{
+            display: block;
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 44px;
+            padding-left: 14px;
+            color:$colh4;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 26px;
+            letter-spacing: normal;
+            color:$colh4;
+        }
+        .commonButton{
+            margin-top: 35px;
+            a{
+                color:$colh4;
+                border:2px solid $colh4;
+                @include commomBtn;
+                &:hover{
+                    background: $hover;
+                    color:$white;
+                    border:2px solid $hover;
+                }
+            }
+        }
+    }
+    .bloomimg{
+        text-align: right;
+        margin-bottom: 70px;
+        .blooImg{
+            display: inline-block;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .layer{
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background: $overlay;
+                display: block;
+            }
+        }
+    }
+    .rowBorder{
+        border-top: 3px solid $bborder;
+        .bloom_service{
+            margin-top: 70px;
+            .topicntxt{
+                display: flex;
+                align-items: center;
+                gap:10px;
+                .icon{
+                    width: 67px;
+                    height: 67px;
+                    display: inline-block;
+                    margin-bottom: 25px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                h5{
+                    font-size: 21px;
+                    line-height: 26px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color:$colh4;
+                }
+            }
+            p{
+                color:$colh4;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}
+/*--about_bloom part end----------*/

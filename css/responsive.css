@@ -1,0 +1,264 @@
+@media (max-width: 479px) {
+  h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  h2 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+  h3 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  h4 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  h5 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  .creative {
+    font-size: 18px !important;
+  }
+  .commonButton a {
+    padding: 10px 25px !important;
+  }
+  button {
+    padding: 13px 0 !important;
+    font-size: 14px !important;
+  }
+  input {
+    padding: 9px 5px !important;
+  }
+  #banner .banner_overlay {
+    padding: 120px 0 20px 0 !important;
+  }
+  #banner .banner_overlay .dots {
+    margin-top: 60px !important;
+  }
+  #about_bloom {
+    padding: 30px 0 !important;
+  }
+  #about_bloom .commonBtn {
+    margin-bottom: 20px !important;
+  }
+  #about_bloom .bloom_service {
+    margin-top: 45px !important;
+  }
+  #portfolio {
+    padding: 45px 0 !important;
+  }
+  #newesleter form {
+    margin-top: 10px !important;
+    text-align: left !important;
+  }
+  footer .bordertp .socialIcon {
+    justify-content: left !important;
+    margin-top: 10px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+  h1 {
+    font-size: 35px !important;
+    font-weight: 700 !important;
+  }
+  h2 {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+  }
+  h3 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+  h4 {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+  h5 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .creative {
+    font-size: 20px !important;
+  }
+  .commonButton a {
+    padding: 10px 27px !important;
+  }
+  button {
+    padding: 14px 0 !important;
+  }
+  input {
+    padding: 10px 7px !important;
+  }
+  #banner .banner_overlay {
+    padding: 120px 0 20px 0 !important;
+  }
+  #banner .banner_overlay .dots {
+    margin-top: 60px !important;
+  }
+  #about_bloom {
+    padding: 30px 0 !important;
+  }
+  #about_bloom .commonBtn {
+    margin-bottom: 20px !important;
+  }
+  #about_bloom .bloom_service {
+    margin-top: 45px !important;
+  }
+  #about_bloom .bloomimg {
+    text-align: center;
+  }
+  #portfolio {
+    padding: 45px 0 !important;
+  }
+  #newesleter form {
+    margin-top: 10px !important;
+    text-align: left !important;
+  }
+  footer .bordertp .socialIcon {
+    justify-content: left !important;
+    margin-top: 10px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+  }
+  h3 {
+    font-size: 26px !important;
+    font-weight: 600 !important;
+  }
+  h4 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+  h5 {
+    font-size: 19px !important;
+    font-weight: 500 !important;
+  }
+  .creative {
+    font-size: 24px !important;
+  }
+  .commonButton a {
+    padding: 12px 30px !important;
+  }
+  button {
+    padding: 15px 0 !important;
+  }
+  input {
+    padding: 12px 7px !important;
+  }
+  #banner .banner_overlay {
+    padding: 125px 0 20px 0 !important;
+  }
+  #banner .banner_overlay .dots {
+    margin-top: 60px !important;
+  }
+  #about_bloom {
+    padding: 30px 0 !important;
+  }
+  #about_bloom .commonBtn {
+    margin-bottom: 20px !important;
+  }
+  #about_bloom .bloom_service {
+    margin-top: 45px !important;
+  }
+  #about_bloom .bloomimg {
+    text-align: center;
+  }
+  #portfolio {
+    padding: 45px 0 !important;
+  }
+  #newesleter form {
+    margin-top: 10px !important;
+    text-align: left !important;
+  }
+  footer .bordertp .socialIcon {
+    justify-content: left !important;
+    margin-top: 10px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+  }
+  h3 {
+    font-size: 26px !important;
+    font-weight: 600 !important;
+  }
+  h4 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+  h5 {
+    font-size: 19px !important;
+    font-weight: 500 !important;
+  }
+  .creative {
+    font-size: 24px !important;
+  }
+  .commonButton a {
+    padding: 12px 30px !important;
+  }
+  button {
+    padding: 15px 0 !important;
+  }
+  input {
+    padding: 12px 7px !important;
+  }
+  #banner .banner_overlay {
+    padding: 125px 0 20px 0 !important;
+  }
+  #banner .banner_overlay .dots {
+    margin-top: 60px !important;
+  }
+  #about_bloom {
+    padding: 30px 0 !important;
+  }
+  #about_bloom .commonBtn {
+    margin-bottom: 20px !important;
+  }
+  #about_bloom .bloom_service {
+    margin-top: 45px !important;
+  }
+  #about_bloom .bloomimg {
+    text-align: center;
+  }
+  #portfolio {
+    padding: 45px 0 !important;
+  }
+  #newesleter form {
+    margin-top: 10px !important;
+    text-align: left !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1320px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=responsive.css.map */

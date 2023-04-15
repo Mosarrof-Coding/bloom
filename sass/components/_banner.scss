@@ -1,0 +1,64 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--banner part start--------*/
+#banner{
+    background: url(../images/bloombanner.jpg) no-repeat center/cover;
+    .banner_overlay{
+        display: block;
+        width: 100%;
+        background: $overlay;
+        padding: 304px 0 30px 0;
+        text-align: center;
+        h1{
+            font-size: 70px;
+            font-weight: 800;
+            color:$white;
+            .desidn{
+                color:$greenh1
+            }
+        }
+        .bannerP{
+            color:$white;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400;
+            max-width: 850px;
+            display: inline-block;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        .commonButton{
+            margin-top: 38px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:30px;
+            a{
+                border:2px solid $white;
+                color:$white;
+                @include commomBtn;
+                &:hover{
+                    background: $hover;
+                    border:2px solid $hover;
+                }
+            }
+        }
+        .dots{
+            display: flex;
+            justify-content: center;
+            gap:14px;
+            margin-top: 150px;
+            .dot{
+                width: 68px;
+                height: 7px;
+                border-radius: 4px;
+                background: $graygreen;
+                &:hover{
+                    background: $hover;
+                }
+            }
+        }
+    }
+
+}
+/*--banner part end----------*/

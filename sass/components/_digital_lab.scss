@@ -1,0 +1,30 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--digital lab part start--------*/
+#digital_lab{
+    background: url(../images/dglab.jpg) no-repeat center/cover;
+    padding: 100px 0;
+    .dg_heading{
+        h2{
+            font-size: 50px;
+            font-weight: 600;
+            color:$white;
+            text-transform: capitalize;
+        }
+        .commonButton{
+            display: block;
+            margin-top: 35px;
+            a{
+                border: 2px solid $white;
+                color:$white;
+                @include commomBtn;
+                &:hover{
+                    background: $hover;
+                    color:$white;
+                    border: 2px solid $hover;
+                }
+            }
+        }
+    }
+}
+/*--digital lab part end----------*/

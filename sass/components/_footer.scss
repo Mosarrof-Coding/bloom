@@ -1,0 +1,74 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--footer part start--------*/
+footer{
+    background: $colh4;
+    padding: 100px 0 0 0;
+    .foot_logo{
+        margin-bottom: 50px;
+        img{
+            margin-bottom: 20px;
+        }
+        p{
+            color: $ancorf5;
+        }
+    }
+    .home{
+        border-right: 2px solid $graygreen;
+        margin-bottom: 50px;
+        ul{
+            h6{
+                color: $white;
+                text-transform: uppercase;
+            }
+            li{
+                display: block;
+                a{
+                    display:block;
+                    color: $ancorf5;
+                    text-transform: capitalize;
+                    margin: 10px 0;
+                    &:hover{
+                        color: $graygreen;
+                    }
+                }
+            }
+        }
+    }
+    .home.xtra{
+        border-right: none;
+    }
+    .bordertp{
+        border-top: 2px solid $graygreen;
+        padding: 20px 0;
+        .copyright{
+            color:$white;
+            a{
+                color:$graygreen;
+            }
+        }
+        .socialIcon{
+            justify-content: right;
+            display: flex;
+            gap:10px;
+            svg{
+                padding: 7px;
+                width: 20px;
+                height: 20px;
+                display: grid;
+                place-items: center;
+                color:$white;
+                cursor: pointer;
+                font-size: 14px;
+                border: 1px solid $ancorf5;
+                &:hover{
+                    background: $greenh1;
+                    border-radius: 5px;
+                    display: grid;
+                    place-items: center;
+                }
+            }
+        }
+    }
+}
+/*--footer part end---------*/

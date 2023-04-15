@@ -1,0 +1,63 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--portfolio lab part start--------*/
+#portfolio{
+    padding: 70px 0;
+    .portBorder{
+        padding-left: 14px;
+        position: relative;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &::before{
+            width: 5px;
+            height: 35px;
+            border-radius: 3px;
+            background: $hover;
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+        }
+        h5{
+            font-size: 26px;
+            font-weight: 600;
+            color:$colh4;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            gap:10px;
+        }
+    }
+    .prtImg{
+        width: 100%;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+        .portlayer{
+            display: block;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 0%;
+            background: $hovertrp;
+            transition: ease-out .3s;
+        }
+        &:hover{
+            .portlayer{
+                height: 100%;
+            }
+        }
+    }
+}
+/*--portfolio lab part end----------*/

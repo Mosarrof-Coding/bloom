@@ -1,0 +1,29 @@
+@import "../variable/variabls";
+@import "../mixins/mixin";
+/*--support lab part start--------*/
+#support{
+    border-top: 2px solid $bborder;
+    padding-top: 40px;
+    .support_system{
+        .sytem_border{
+            h5{
+                text-transform: capitalize;
+            }
+        }
+        p{
+            text-transform: capitalize;
+
+        }
+        ul{
+            li.systemLi{
+                list-style: disc;
+                margin: 10px 0;
+                color:$graygreen;
+                svg{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+/*--support lab part end----------*/
